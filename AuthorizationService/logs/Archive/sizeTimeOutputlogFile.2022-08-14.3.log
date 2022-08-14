@@ -1,0 +1,111 @@
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-14 19:43:39] - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-14 19:43:39] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+[2022-08-14 19:43:39] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'multipartConfigElement'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2022-08-14 19:43:39] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2022-08-14 19:43:39] - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+[2022-08-14 19:43:39] - Code archive: C:\Users\Dwaipayan\.m2\repository\org\springframework\boot\spring-boot\2.7.2\spring-boot-2.7.2.jar
+[2022-08-14 19:43:39] - Code archive: C:\Users\Dwaipayan\.m2\repository\org\springframework\boot\spring-boot\2.7.2\spring-boot-2.7.2.jar
+[2022-08-14 19:43:39] - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+[2022-08-14 19:43:39] - Tomcat initialized with port(s): 8088 (http)
+[2022-08-14 19:43:39] - Initializing ProtocolHandler ["http-nio-8088"]
+[2022-08-14 19:43:39] - Starting service [Tomcat]
+[2022-08-14 19:43:39] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-08-14 19:43:39] - Initializing Spring embedded WebApplicationContext
+[2022-08-14 19:43:39] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-08-14 19:43:39] - Root WebApplicationContext: initialization completed in 1715 ms
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'h2Console'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'spring.h2.console-org.springframework.boot.autoconfigure.h2.H2ConsoleProperties'
+[2022-08-14 19:43:39] - Autowiring by type from bean name 'h2Console' via factory method to bean named 'spring.h2.console-org.springframework.boot.autoconfigure.h2.H2ConsoleProperties'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'dataSource'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+[2022-08-14 19:43:39] - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2022-08-14 19:43:39] - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2022-08-14 19:43:39] - Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa
+
+[2022-08-14 19:43:39] - HikariPool-1 - configuration:
+[2022-08-14 19:43:39] - allowPoolSuspension................................false
+[2022-08-14 19:43:39] - autoCommit................................true
+[2022-08-14 19:43:39] - catalog................................none
+[2022-08-14 19:43:39] - connectionInitSql................................none
+[2022-08-14 19:43:39] - connectionTestQuery................................none
+[2022-08-14 19:43:39] - connectionTimeout................................30000
+[2022-08-14 19:43:39] - dataSource................................none
+[2022-08-14 19:43:39] - dataSourceClassName................................none
+[2022-08-14 19:43:39] - dataSourceJNDI................................none
+[2022-08-14 19:43:39] - dataSourceProperties................................{password=<masked>}
+[2022-08-14 19:43:39] - driverClassName................................"org.h2.Driver"
+[2022-08-14 19:43:39] - exceptionOverrideClassName................................none
+[2022-08-14 19:43:39] - healthCheckProperties................................{}
+[2022-08-14 19:43:39] - healthCheckRegistry................................none
+[2022-08-14 19:43:39] - idleTimeout................................600000
+[2022-08-14 19:43:39] - initializationFailTimeout................................1
+[2022-08-14 19:43:39] - isolateInternalQueries................................false
+[2022-08-14 19:43:39] - jdbcUrl................................jdbc:h2:mem:pensionapp;NON_KEYWORDS=USER
+[2022-08-14 19:43:39] - keepaliveTime................................0
+[2022-08-14 19:43:39] - leakDetectionThreshold................................0
+[2022-08-14 19:43:39] - maxLifetime................................1800000
+[2022-08-14 19:43:39] - maximumPoolSize................................10
+[2022-08-14 19:43:39] - metricRegistry................................none
+[2022-08-14 19:43:39] - metricsTrackerFactory................................none
+[2022-08-14 19:43:39] - minimumIdle................................10
+[2022-08-14 19:43:39] - password................................<masked>
+[2022-08-14 19:43:39] - poolName................................"HikariPool-1"
+[2022-08-14 19:43:39] - readOnly................................false
+[2022-08-14 19:43:39] - registerMbeans................................false
+[2022-08-14 19:43:39] - scheduledExecutor................................none
+[2022-08-14 19:43:39] - schema................................none
+[2022-08-14 19:43:39] - threadFactory................................internal
+[2022-08-14 19:43:39] - transactionIsolation................................default
+[2022-08-14 19:43:39] - username................................"sa"
+[2022-08-14 19:43:39] - validationTimeout................................5000
+[2022-08-14 19:43:39] - HikariPool-1 - Starting...
+[2022-08-14 19:43:39] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:39] - HikariPool-1 - Start completed.
+[2022-08-14 19:43:40] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pensionapp'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'errorPageSecurityFilter'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$ErrorPageSecurityFilterConfiguration'
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'errorPageSecurityFilter' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6138e79a'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'securityFilterChainRegistration'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'securityFilterChainRegistration' via factory method to bean named 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'jwtAuthenticationFilter'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'userDetailsServiceImpl'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'userDetailsRepository'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@3b77a04f'
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2022-08-14 19:43:40] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:43:40] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-14 19:43:40] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2022-08-14 19:43:40] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2022-08-14 19:43:40] - Fetching JDBC Connection from DataSource
+[2022-08-14 19:43:40] - Building JPA container EntityManagerFactory for persistence unit 'default'

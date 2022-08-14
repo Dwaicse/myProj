@@ -1,0 +1,103 @@
+[2022-08-14 19:49:48] - Connection manager is shutting down
+[2022-08-14 19:49:48] - Connection manager shut down
+[2022-08-14 19:49:48] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2022-08-14 19:49:48] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6138e79a, started on Sun Aug 14 19:43:38 IST 2022
+[2022-08-14 19:49:48] - Unregistering application AUTHORIZATIONSERVICEMODULE with eureka with status DOWN
+[2022-08-14 19:49:48] - Saw local status change event StatusChangeEvent [timestamp=1660486788491, current=DOWN, previous=UP]
+[2022-08-14 19:49:48] - Executing on-demand update of local InstanceInfo
+[2022-08-14 19:49:48] - Canceling the latest scheduled update, it will be rescheduled at the end of on demand update
+[2022-08-14 19:49:48] - DiscoveryClient_AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088: registering service...
+[2022-08-14 19:49:48] - Stopping beans in phase 2147483647
+[2022-08-14 19:49:48] - CookieSpec selected: default
+[2022-08-14 19:49:48] - Auth cache not set in the context
+[2022-08-14 19:49:48] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:48] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+[2022-08-14 19:49:48] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2022-08-14 19:49:48] - Stopping beans in phase 2147483646
+[2022-08-14 19:49:48] - http-outgoing-1 << "[read] I/O error: Read timed out"
+[2022-08-14 19:49:48] - Connection leased: [id: 1][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:48] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:49:48] - Executing request POST /eureka/apps/AUTHORIZATIONSERVICEMODULE HTTP/1.1
+[2022-08-14 19:49:48] - Target auth state: UNCHALLENGED
+[2022-08-14 19:49:48] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:49:48] - http-outgoing-1 >> POST /eureka/apps/AUTHORIZATIONSERVICEMODULE HTTP/1.1
+[2022-08-14 19:49:48] - http-outgoing-1 >> Accept: application/json, application/*+json
+[2022-08-14 19:49:48] - http-outgoing-1 >> Accept-Encoding: gzip
+[2022-08-14 19:49:48] - http-outgoing-1 >> Content-Type: application/json
+[2022-08-14 19:49:48] - http-outgoing-1 >> Content-Length: 1047
+[2022-08-14 19:49:48] - http-outgoing-1 >> Host: localhost:8761
+[2022-08-14 19:49:48] - http-outgoing-1 >> Connection: Keep-Alive
+[2022-08-14 19:49:48] - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+[2022-08-14 19:49:48] - http-outgoing-1 >> "POST /eureka/apps/AUTHORIZATIONSERVICEMODULE HTTP/1.1[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "Accept: application/json, application/*+json[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "Accept-Encoding: gzip[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "Content-Length: 1047[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "Host: localhost:8761[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 >> "{"instance":{"instanceId":"Dwaipayan-Pc:AuthorizationServiceModule:8088","app":"AUTHORIZATIONSERVICEMODULE","appGroupName":null,"ipAddr":"192.168.0.195","sid":"na","homePageUrl":"http://192.168.0.195:8088/","statusPageUrl":"http://192.168.0.195:8088/actuator/info","healthCheckUrl":"http://192.168.0.195:8088/actuator/health","secureHealthCheckUrl":null,"vipAddress":"AuthorizationServiceModule","secureVipAddress":"AuthorizationServiceModule","countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"},"hostName":"192.168.0.195","status":"DOWN","overriddenStatus":"UNKNOWN","leaseInfo":{"renewalIntervalInSecs":30,"durationInSecs":90,"registrationTimestamp":0,"lastRenewalTimestamp":0,"evictionTimestamp":0,"serviceUpTimestamp":0},"isCoordinatingDiscoveryServer":false,"lastUpdatedTimestamp":1660486422335,"lastDirtyTimestamp":1660486788491,"actionType":null,"asgName":null,"port":{"$":8088,"@enabled":"true"},"securePort":{"$":443,"@enabled":"false"},"metadata":{"management.port":"8088"}}}"
+[2022-08-14 19:49:48] - http-outgoing-1 << "HTTP/1.1 204 [\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 << "Date: Sun, 14 Aug 2022 14:19:48 GMT[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 << "Keep-Alive: timeout=60[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 << "[\r][\n]"
+[2022-08-14 19:49:48] - http-outgoing-1 << HTTP/1.1 204 
+[2022-08-14 19:49:48] - http-outgoing-1 << Content-Type: application/json
+[2022-08-14 19:49:48] - http-outgoing-1 << Date: Sun, 14 Aug 2022 14:19:48 GMT
+[2022-08-14 19:49:48] - http-outgoing-1 << Keep-Alive: timeout=60
+[2022-08-14 19:49:48] - http-outgoing-1 << Connection: keep-alive
+[2022-08-14 19:49:48] - Connection can be kept alive for 60000 MILLISECONDS
+[2022-08-14 19:49:48] - Connection [id: 1][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+[2022-08-14 19:49:48] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:49:48] - Connection released: [id: 1][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:48] - DiscoveryClient_AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088 - registration status: 204
+[2022-08-14 19:49:48] - Bean 'webServerStartStop' completed its stop procedure
+[2022-08-14 19:49:48] - Stopping beans in phase 0
+[2022-08-14 19:49:48] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-14 19:49:48] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:pensionapp user=SA: (connection is dead)
+[2022-08-14 19:49:48] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:48] - HikariPool-1 - Added connection conn10: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:49:48] - HikariPool-1 - Added connection conn11: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:49:48] - HikariPool-1 - Added connection conn12: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:49:48] - HikariPool-1 - Added connection conn13: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:49:48] - HikariPool-1 - Added connection conn14: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:49:48] - HikariPool-1 - Shutdown initiated...
+[2022-08-14 19:49:48] - HikariPool-1 - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+[2022-08-14 19:49:48] - HikariPool-1 - Added connection conn15: url=jdbc:h2:mem:pensionapp user=SA
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn10: url=jdbc:h2:mem:pensionapp user=SA: (connection evicted)
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn11: url=jdbc:h2:mem:pensionapp user=SA: (connection evicted)
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn12: url=jdbc:h2:mem:pensionapp user=SA: (connection evicted)
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn13: url=jdbc:h2:mem:pensionapp user=SA: (connection evicted)
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn14: url=jdbc:h2:mem:pensionapp user=SA: (connection evicted)
+[2022-08-14 19:49:48] - HikariPool-1 - Closing connection conn15: url=jdbc:h2:mem:pensionapp user=SA: (connection evicted)
+[2022-08-14 19:49:48] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2022-08-14 19:49:48] - HikariPool-1 - Shutdown completed.
+[2022-08-14 19:49:48] - Shutting down DiscoveryClient ...
+[2022-08-14 19:49:51] - Unregistering ...
+[2022-08-14 19:49:51] - CookieSpec selected: default
+[2022-08-14 19:49:51] - Auth cache not set in the context
+[2022-08-14 19:49:51] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:51] - http-outgoing-1 << "[read] I/O error: Read timed out"
+[2022-08-14 19:49:51] - Connection leased: [id: 1][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:51] - http-outgoing-1: set socket timeout to 0

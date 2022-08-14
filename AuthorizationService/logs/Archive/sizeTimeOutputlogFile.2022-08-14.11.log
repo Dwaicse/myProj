@@ -1,0 +1,128 @@
+[2022-08-14 19:43:42] - Adding key: /v2/api-docs, WebMvcRequestHandler{requestMapping={GET [/v2/api-docs], produces [application/json || application/hal+json]}, handlerMethod=springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest), key=RequestHandlerKey{pathMappings=[/v2/api-docs], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+[2022-08-14 19:43:42] - Adding key: /v3/api-docs, WebMvcRequestHandler{requestMapping={GET [/v3/api-docs], produces [application/json || application/hal+json]}, handlerMethod=springfox.documentation.oas.web.OpenApiControllerWebMvc#getDocumentation(String, HttpServletRequest), key=RequestHandlerKey{pathMappings=[/v3/api-docs], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json, application/hal+json]}}
+[2022-08-14 19:43:42] - Combined number of request handlers 10
+[2022-08-14 19:43:42] - Scanning for api listing references
+[2022-08-14 19:43:42] - Adding return parameter of type Lcom/authorization/models/User;
+[2022-08-14 19:43:42] - Reading parameters models for handlerMethod |getCurrentUser|
+[2022-08-14 19:43:42] - Finished reading parameters models for handlerMethod |getCurrentUser|
+[2022-08-14 19:43:42] - Reading parameters models for handlerMethod |getCurrentUser|
+[2022-08-14 19:43:42] - Reading property password
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPassword
+[2022-08-14 19:43:42] - Name 'password' renamed to 'password'
+[2022-08-14 19:43:42] - Adding property password to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPassword
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPassword
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPassword
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPassword
+[2022-08-14 19:43:42] - Reading property phone
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPhone
+[2022-08-14 19:43:42] - Name 'phone' renamed to 'phone'
+[2022-08-14 19:43:42] - Adding property phone to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPhone
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPhone
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPhone
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPhone
+[2022-08-14 19:43:42] - Reading property credentialsNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isCredentialsNonExpired
+[2022-08-14 19:43:42] - Name 'credentialsNonExpired' renamed to 'credentialsNonExpired'
+[2022-08-14 19:43:42] - Adding property credentialsNonExpired to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isCredentialsNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isCredentialsNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isCredentialsNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isCredentialsNonExpired
+[2022-08-14 19:43:42] - Reading property name
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getName
+[2022-08-14 19:43:42] - Name 'name' renamed to 'name'
+[2022-08-14 19:43:42] - Adding property name to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getName
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getName
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getName
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getName
+[2022-08-14 19:43:42] - Reading property emailId
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getEmailId
+[2022-08-14 19:43:42] - Name 'emailId' renamed to 'emailId'
+[2022-08-14 19:43:42] - Adding property emailId to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getEmailId
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getEmailId
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getEmailId
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getEmailId
+[2022-08-14 19:43:42] - Reading property accountNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonExpired
+[2022-08-14 19:43:42] - Name 'accountNonExpired' renamed to 'accountNonExpired'
+[2022-08-14 19:43:42] - Adding property accountNonExpired to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonExpired
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonExpired
+[2022-08-14 19:43:42] - Reading property id
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getId
+[2022-08-14 19:43:42] - Name 'id' renamed to 'id'
+[2022-08-14 19:43:42] - Adding property id to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getId
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getId
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getId
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getId
+[2022-08-14 19:43:42] - Reading property enabled
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isEnabled
+[2022-08-14 19:43:42] - Name 'enabled' renamed to 'enabled'
+[2022-08-14 19:43:42] - Adding property enabled to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isEnabled
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isEnabled
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isEnabled
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isEnabled
+[2022-08-14 19:43:42] - Reading property authorities
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthorities
+[2022-08-14 19:43:42] - Name 'authorities' renamed to 'authorities'
+[2022-08-14 19:43:42] - Adding property authorities to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthorities
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthorities
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthorities
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthorities
+[2022-08-14 19:43:42] - Generated unique model named: GrantedAuthority, with model id: 1_0_org.springframework.security.core.GrantedAuthority
+[2022-08-14 19:43:42] - Reading property username
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getUsername
+[2022-08-14 19:43:42] - Name 'username' renamed to 'username'
+[2022-08-14 19:43:42] - Adding property username to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getUsername
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getUsername
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getUsername
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getUsername
+[2022-08-14 19:43:42] - Reading property accountNonLocked
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonLocked
+[2022-08-14 19:43:42] - Name 'accountNonLocked' renamed to 'accountNonLocked'
+[2022-08-14 19:43:42] - Adding property accountNonLocked to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonLocked
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonLocked
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonLocked
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member isAccountNonLocked
+[2022-08-14 19:43:42] - Inferred 11 properties. Properties found password, phone, credentialsNonExpired, name, accountNonExpired, emailId, id, authorities, enabled, accountNonLocked, username
+[2022-08-14 19:43:42] - Generated unique model named: User, with model id: 1_0_com.authorization.models.User
+[2022-08-14 19:43:42] - Generated parameter model id: com.authorization.models.User, name: User
+[2022-08-14 19:43:42] - Generated unique model named: User, with model id: 1_0_com.authorization.models.User
+[2022-08-14 19:43:42] - Adding type Ljava/util/Collection<Lorg/springframework/security/core/GrantedAuthority;>; for parameter authorities
+[2022-08-14 19:43:42] - Generated unique model named: GrantedAuthority, with model id: 1_0_org.springframework.security.core.GrantedAuthority
+[2022-08-14 19:43:42] - Adding collectionElement type Lorg/springframework/security/core/GrantedAuthority;
+[2022-08-14 19:43:42] - Recursively resolving dependencies for collectionElement type Lorg/springframework/security/core/GrantedAuthority;
+[2022-08-14 19:43:42] - Generated unique model named: GrantedAuthority, with model id: 1_0_org.springframework.security.core.GrantedAuthority
+[2022-08-14 19:43:42] - Reading property authority
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthority
+[2022-08-14 19:43:42] - Name 'authority' renamed to 'authority'
+[2022-08-14 19:43:42] - Adding property authority to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthority
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthority
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthority
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getAuthority
+[2022-08-14 19:43:42] - Generated unique model named: GrantedAuthority, with model id: 1_0_org.springframework.security.core.GrantedAuthority
+[2022-08-14 19:43:42] - Skipping model of type Ljava/util/Collection<Lorg/springframework/security/core/GrantedAuthority;>; as its either a container type, map, enum or base type, or its already been handled
+[2022-08-14 19:43:42] - Inferred 1 properties. Properties found authority
+[2022-08-14 19:43:42] - Generated unique model named: GrantedAuthority, with model id: 1_0_org.springframework.security.core.GrantedAuthority
+[2022-08-14 19:43:42] - Adding return parameter of type Lcom/authorization/models/User;
+[2022-08-14 19:43:42] - Reading parameters models for handlerMethod |getCurrentUser|
+[2022-08-14 19:43:42] - Finished reading parameters models for handlerMethod |getCurrentUser|
+[2022-08-14 19:43:42] - Reading parameters models for handlerMethod |getCurrentUser|
+[2022-08-14 19:43:42] - Generated unique model named: User, with model id: 1_0_com.authorization.models.User
+[2022-08-14 19:43:42] - Reading property password
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPassword
+[2022-08-14 19:43:42] - Name 'password' renamed to 'password'
+[2022-08-14 19:43:42] - Adding property password to model
+[2022-08-14 19:43:42] - Evaluating unwrapped getter for member getPassword

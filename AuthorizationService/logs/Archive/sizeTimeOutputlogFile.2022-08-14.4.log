@@ -1,0 +1,86 @@
+[2022-08-14 19:43:40] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-14 19:43:40] - Creating shared instance of singleton bean 'jpaMappingContext'
+[2022-08-14 19:43:40] - Initializing JpaMetamodelMappingContext…
+[2022-08-14 19:43:40] - Finished initializing JpaMetamodelMappingContext!
+[2022-08-14 19:43:40] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-14 19:43:40] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-14 19:43:40] - Initializing repository instance for com.authorization.repository.UserDetailsRepository…
+[2022-08-14 19:43:41] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-14 19:43:41] - Looking up named query User.findByUsername
+[2022-08-14 19:43:41] - Did not find named query User.findByUsername
+[2022-08-14 19:43:41] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-14 19:43:41] - Finished creation of repository instance for com.authorization.repository.UserDetailsRepository.
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'jwtUtil'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'requestContextFilter'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'formContentFilter'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'characterEncodingFilter'
+[2022-08-14 19:43:41] - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, jwtAuthenticationFilter urls=[/*] order=2147483647
+[2022-08-14 19:43:41] - Mapping servlets: dispatcherServlet urls=[/], webServlet urls=[/h2-console/*]
+[2022-08-14 19:43:41] - Filter 'requestContextFilter' configured for use
+[2022-08-14 19:43:41] - Filter 'jwtAuthenticationFilter' configured for use
+[2022-08-14 19:43:41] - Filter 'characterEncodingFilter' configured for use
+[2022-08-14 19:43:41] - Filter 'springSecurityFilterChain' configured for use
+[2022-08-14 19:43:41] - Filter 'formContentFilter' configured for use
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$JpaInvokerConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'authorizationServiceApplication'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'mySecurityConfig'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'objectPostProcessor'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'objectPostProcessor' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@3b77a04f'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'enableGlobalAuthenticationAutowiredConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6138e79a'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'initializeUserDetailsBeanManagerConfigurer'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'initializeUserDetailsBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6138e79a'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'initializeAuthenticationProviderBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6138e79a'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@3b77a04f'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@3b77a04f'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptorConfigurer'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
+[2022-08-14 19:43:41] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'openEntityManagerInViewInterceptorConfigurer' via factory method to bean named 'openEntityManagerInViewInterceptor'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6138e79a'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'swaggerUiConfigurer'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'springfox.boot.starter.autoconfigure.SwaggerUiWebMvcConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'springFoxCon'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'authenticateController'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'authenticationManagerBean'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'serviceModelToSwagger2MapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'compatibilityModelMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'securityMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'licenseMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'vendorExtensionsMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'propertyMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'parameterMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'modelMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'requestParameterMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'modelSpecificationMapperImpl'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'swagger2ControllerWebMvc'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'resourceGroupCache'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'springfox.documentation.spring.web.SpringfoxWebConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'jsonSerializer'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'swagger2Module'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'openApiModule'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'springfox.documentation.oas.configuration.OpenApiMappingConfiguration'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'jsonSerializer' via factory method to bean named 'swagger2Module'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'jsonSerializer' via factory method to bean named 'openApiModule'
+[2022-08-14 19:43:41] - Creating shared instance of singleton bean 'webMvcSwaggerTransformationFilterRegistry'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'swagger2ControllerWebMvc' via constructor to bean named 'resourceGroupCache'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'swagger2ControllerWebMvc' via constructor to bean named 'serviceModelToSwagger2MapperImpl'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'swagger2ControllerWebMvc' via constructor to bean named 'jsonSerializer'
+[2022-08-14 19:43:41] - Autowiring by type from bean name 'swagger2ControllerWebMvc' via constructor to bean named 'webMvcSwaggerTransformationFilterRegistry'

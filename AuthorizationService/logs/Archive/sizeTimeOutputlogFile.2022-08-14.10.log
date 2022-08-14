@@ -1,0 +1,128 @@
+[2022-08-14 19:43:42] - Application version is -1: true
+[2022-08-14 19:43:42] - Getting all instance registry info from the eureka server
+[2022-08-14 19:43:42] - Ending a session and starting anew
+[2022-08-14 19:43:42] - Connection manager is shutting down
+[2022-08-14 19:43:42] - Connection manager shut down
+[2022-08-14 19:43:42] - CookieSpec selected: default
+[2022-08-14 19:43:42] - Auth cache not set in the context
+[2022-08-14 19:43:42] - Connection request: [route: {}->http://localhost:8761][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2022-08-14 19:43:42] - Connection leased: [id: 0][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:43:42] - Opening connection {}->http://localhost:8761
+[2022-08-14 19:43:42] - Connecting to localhost/127.0.0.1:8761
+[2022-08-14 19:43:42] - Connection established 127.0.0.1:51484<->127.0.0.1:8761
+[2022-08-14 19:43:42] - Executing request GET /eureka/apps/ HTTP/1.1
+[2022-08-14 19:43:42] - Target auth state: UNCHALLENGED
+[2022-08-14 19:43:42] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:43:42] - http-outgoing-0 >> GET /eureka/apps/ HTTP/1.1
+[2022-08-14 19:43:42] - http-outgoing-0 >> Accept: application/json, application/*+json
+[2022-08-14 19:43:42] - http-outgoing-0 >> Host: localhost:8761
+[2022-08-14 19:43:42] - http-outgoing-0 >> Connection: Keep-Alive
+[2022-08-14 19:43:42] - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+[2022-08-14 19:43:42] - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-08-14 19:43:42] - http-outgoing-0 >> "GET /eureka/apps/ HTTP/1.1[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 >> "Accept: application/json, application/*+json[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 >> "Host: localhost:8761[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 >> "[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "Content-Length: 768[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "Date: Sun, 14 Aug 2022 14:13:42 GMT[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0xed]T[0xdb]n[0xda]@[0x10][0xfd][0x97]U[0x1e])[0xd8][0xc6][0xf8][0xc2]S[0x10]F[0x11]j[0x3]([0x84]FU[0x15][0xa1][0xad]=[0x84]U[0xed][0xb5][0xb5]^[0x93][0xa2][0x88][0xef][0xac][0x8d]![0xa4][0x6]L[0xc5]c[0x9e][0xc0][0xb3]s?s[0xce][0x1b][0xa1]I[0x12]2[0x9f]J[0x16][0xf3][0x94]t[0xdf][0xc8][\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "D[0xaa][0xfe][0xcf][0xe7][0x1][0x84][0x92][0x92].[0xd1]ICy[0xa1]eI[0xd3][0xa5][0x1f][0x7][0x80][0xc6][0xd9]d[0xde][0x9e][0x17][0xf]e8[0xe9][0xfe]|#[0x9c]F[0xea]y2[0x18]M[0x87][0xe3][0xd1][0xe0][0xc1][0x1b]<[0xf6][0x86][0xdf][0xa6][0xf7]co[0xf6]m[0x80][0xfe][0x8c][0xa7][0x92]r[0x1f]r[0xe7][0xf2]c[0x18]`[0x88][0xf7]JYB[0xd7][0x94][0x99][0xf8][0xdd][0x9]p[0xd5][0x5][0x8][0xf]$eaz[0x1f][0x7]Y[0x8]]GsLL[0xb2][0x8c]S9*[\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "[0xe9][0xae][0xd1][0xd4]-[0xa7][0xa9]5u[0xb7]S[0xf4]s[0xb2]|[0xd2][0xb][0x2]Q[0x11][0x87][0x8d][0xc8],[0xcd][0x7][0xc3][0xaf][0x18][0xb7] X[0x10][0x0][0x9f][0xee][0xec][0xa3][0xaf][0xa3][0xf1][0xd3][0x8][0x1f][0x93]XH[0xb5][0xa9][0x1b][0x92][0xf7][0xd3] [0xb7][0xc0][0xe9][0xaf][0x10][0xd4][0x10]Rd@6[0x98][0xe][0xfc]L[0xc0]d[0xef]i[0x9a][0xed][0x3][0xc7][0x5][\r][0xd3][0xdc][0xd3][0x8f]3.[0xc5]Z[0xad]@o[0x90][0x80]J[0xda][0x7].A[0xc][0xf9]"V[0xb1][0xb7]~HS[0xd5][0x80][0x1f]GM[0xe]r[0x11][0xb2]?M[0x9c][0x92][0xe1]{sX.[0x10]?n<X[0xd0],[0x94][0xde]a[0x8a]F[0x9][0xc9][0xfd]z[0xfc][0xca]U[0xc5][0x10]h[\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "ez[0x1][0x1c]^i8T[0xfe]+[0xf5];[0x5][0x1f][0xab][0xb5]5[0xec]%[0x13]9[0xae][0xa5][0xcd]E[0x9b][0x80][0x17][0x96][0xca][0xc2][0xfe][0xc8]"[0xc0][0xf2][0x11].\[0xb7],[0xcd]tL[0xc3][0xb5]l[0xad][0x83][0x15]h*[0x1f][0x8a][0xc4][0xff]8Y[0xa6][0xd3]i[V[0x83][0xc0][0x8a][0xf9][0x1f][0xd2]hjq[0x2][0xed]0K*[0xb3][0xeb][0xae][0x89][0x3]Dx[0x13]jQ[0xaa][0xff][0x88]r[0xfa][0x2][0x11][0xce][0xdb],p![0xf9][0x8d]l[0xd4][0x91]D0[0xc1][0xb7][0x99][0x8][0xd1][0xba][0x94]2[0xe9][0xb6]Z[0x7][0xb0][0xe7][0xf0][0xb5]v[0xe0][0xd7]q[0xa6][0xbe][0xcc][0xa8][0x8c]E[0x8b][0x15][0xbb]][0x2][\r][0xe5][0xb2][0xbf][0x4][0xff]w[0xed][0xd0]"[0x6][0x83]W[0xc5]5B[0xe]o[0xf5][0xc5][0x93][0xf2][0x94][0xbe][0xd7][0xf2]ei?[0x8e]E[0xc0]8[0x2][0xc4]_<[0x96][0xfa][0xea][0x92][0xd7]S\*[0x88][0xdd][0xd5][0x15][0x0][0xcd][0x12][0xdc]![0x4][0xef][0xf6]L[0xde][0xc3]hm[0xdd]<&[0xe4][0xba][0xda]I[0xb7][0xda][0x8a]q[0x5][0x8a][0xeb]D[0x1d]Y[0xcf][0xf3][0x6][0x1e][0xd9]<o[0x1a]{)x[0x18][0xf7][0x7][0xd3][0xe9][0x96][0x92][0x17][0xb][0x81][0x88]}[0x1c]z;[0xf1]^[0x6][0x8c]Z2p[0xa4][0xf4][0xd5]E[0xc0][0xf8][0x14][0x81]-Mm[0xd7][0xd4][0x8c][0xb6][0xee][0x9c][0x15][0x1][0xa3]ck[0x17][0x8b][0x80][0xca][0xae];[0x9a]]G[0x4][0x8c][0xfa]"`\"[0x2][0xc6][0xff][0x8b][0x80]qV[0x4]*[0xae][0xfd][0x88][0x4]T{^C[0x0]J[0x8]O[\n]"
+[2022-08-14 19:43:42] - http-outgoing-0 << "@[0x8e][0x84]m[5[0x4][0xa0]7[0x19][0xde][0xf5][0x1e][0x7]O[0xbd][0x1f][0xf5]i[0xdf]K[0xd8][0x1d]6[0xf7]J[0xd7]xq[0xae]vH[0xf6]0[0xf6]i[0xa8][0xbe]wD?,q]z[0xab][0xfa][0x9f][0xf4].[0x9]hi[0xb6][0xad];[0xf6]Yz;[0xb6]i^No[0xcc]n9[0x1d][0xf7],[0xbd][0xf3][0x9b]8F[0xef][0xdd]y[0xe4][0xd0][0x9d][0xa0][0xf6][0x7][0xc7][0xba][0xb4]>[0x16]VM[0xe9][0xfd]%W[0x13][0xf9][0xe0][0xfd]*[0xf4][0xdd]Bt[0x9a][0xbe][0xf9][0xa6][\r][0xf7](}[0x9f]7[0x9b][0xbf][0x95][0x82]%=[0x1c][0xc][0x0][0x0]"
+[2022-08-14 19:43:42] - http-outgoing-0 << HTTP/1.1 200 
+[2022-08-14 19:43:42] - http-outgoing-0 << Content-Encoding: gzip
+[2022-08-14 19:43:42] - http-outgoing-0 << Content-Type: application/json
+[2022-08-14 19:43:42] - http-outgoing-0 << Content-Length: 768
+[2022-08-14 19:43:42] - http-outgoing-0 << Date: Sun, 14 Aug 2022 14:13:42 GMT
+[2022-08-14 19:43:42] - http-outgoing-0 << Keep-Alive: timeout=60
+[2022-08-14 19:43:42] - http-outgoing-0 << Connection: keep-alive
+[2022-08-14 19:43:42] - Connection can be kept alive for 60000 MILLISECONDS
+[2022-08-14 19:43:42] - Connection [id: 0][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+[2022-08-14 19:43:42] - http-outgoing-0: set socket timeout to 0
+[2022-08-14 19:43:42] - Connection released: [id: 0][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:43:42] - Pinning to endpoint null
+[2022-08-14 19:43:42] - The response status is 200
+[2022-08-14 19:43:42] - Got full registry with apps hashcode UP_3_
+[2022-08-14 19:43:42] - The total number of all instances in the client now is 3
+[2022-08-14 19:43:42] - Starting heartbeat executor: renew interval is: 30
+[2022-08-14 19:43:42] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2022-08-14 19:43:42] - Discovery Client initialized at timestamp 1660486422716 with initial instances count: 3
+[2022-08-14 19:43:42] - Registering application AUTHORIZATIONSERVICEMODULE with eureka with status UP
+[2022-08-14 19:43:42] - Saw local status change event StatusChangeEvent [timestamp=1660486422718, current=UP, previous=STARTING]
+[2022-08-14 19:43:42] - Executing on-demand update of local InstanceInfo
+[2022-08-14 19:43:42] - Canceling the latest scheduled update, it will be rescheduled at the end of on demand update
+[2022-08-14 19:43:42] - Successfully started bean 'eurekaAutoServiceRegistration'
+[2022-08-14 19:43:42] - Starting beans in phase 2147483646
+[2022-08-14 19:43:42] - DiscoveryClient_AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088: registering service...
+[2022-08-14 19:43:42] - Starting ProtocolHandler ["http-nio-8088"]
+[2022-08-14 19:43:42] - Ending a session and starting anew
+[2022-08-14 19:43:42] - Tomcat started on port(s): 8088 (http) with context path ''
+[2022-08-14 19:43:42] - Updating port to 8088
+[2022-08-14 19:43:42] - CookieSpec selected: default
+[2022-08-14 19:43:42] - Auth cache not set in the context
+[2022-08-14 19:43:42] - Connection request: [route: {}->http://localhost:8761][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2022-08-14 19:43:42] - Connection leased: [id: 1][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:43:42] - Opening connection {}->http://localhost:8761
+[2022-08-14 19:43:42] - Connecting to localhost/127.0.0.1:8761
+[2022-08-14 19:43:42] - Connection established 127.0.0.1:51485<->127.0.0.1:8761
+[2022-08-14 19:43:42] - Executing request POST /eureka/apps/AUTHORIZATIONSERVICEMODULE HTTP/1.1
+[2022-08-14 19:43:42] - Target auth state: UNCHALLENGED
+[2022-08-14 19:43:42] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:43:42] - http-outgoing-1 >> POST /eureka/apps/AUTHORIZATIONSERVICEMODULE HTTP/1.1
+[2022-08-14 19:43:42] - http-outgoing-1 >> Accept: application/json, application/*+json
+[2022-08-14 19:43:42] - http-outgoing-1 >> Accept-Encoding: gzip
+[2022-08-14 19:43:42] - http-outgoing-1 >> Content-Type: application/json
+[2022-08-14 19:43:42] - http-outgoing-1 >> Content-Length: 1045
+[2022-08-14 19:43:42] - http-outgoing-1 >> Host: localhost:8761
+[2022-08-14 19:43:42] - http-outgoing-1 >> Connection: Keep-Alive
+[2022-08-14 19:43:42] - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+[2022-08-14 19:43:42] - http-outgoing-1 >> "POST /eureka/apps/AUTHORIZATIONSERVICEMODULE HTTP/1.1[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "Accept: application/json, application/*+json[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "Accept-Encoding: gzip[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "Content-Length: 1045[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "Host: localhost:8761[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 >> "{"instance":{"instanceId":"Dwaipayan-Pc:AuthorizationServiceModule:8088","app":"AUTHORIZATIONSERVICEMODULE","appGroupName":null,"ipAddr":"192.168.0.195","sid":"na","homePageUrl":"http://192.168.0.195:8088/","statusPageUrl":"http://192.168.0.195:8088/actuator/info","healthCheckUrl":"http://192.168.0.195:8088/actuator/health","secureHealthCheckUrl":null,"vipAddress":"AuthorizationServiceModule","secureVipAddress":"AuthorizationServiceModule","countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"},"hostName":"192.168.0.195","status":"UP","overriddenStatus":"UNKNOWN","leaseInfo":{"renewalIntervalInSecs":30,"durationInSecs":90,"registrationTimestamp":0,"lastRenewalTimestamp":0,"evictionTimestamp":0,"serviceUpTimestamp":0},"isCoordinatingDiscoveryServer":false,"lastUpdatedTimestamp":1660486422335,"lastDirtyTimestamp":1660486422718,"actionType":null,"asgName":null,"port":{"$":8088,"@enabled":"true"},"securePort":{"$":443,"@enabled":"false"},"metadata":{"management.port":"8088"}}}"
+[2022-08-14 19:43:42] - http-outgoing-1 << "HTTP/1.1 204 [\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 << "Date: Sun, 14 Aug 2022 14:13:42 GMT[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 << "Keep-Alive: timeout=60[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 << "[\r][\n]"
+[2022-08-14 19:43:42] - http-outgoing-1 << HTTP/1.1 204 
+[2022-08-14 19:43:42] - http-outgoing-1 << Content-Type: application/json
+[2022-08-14 19:43:42] - http-outgoing-1 << Date: Sun, 14 Aug 2022 14:13:42 GMT
+[2022-08-14 19:43:42] - http-outgoing-1 << Keep-Alive: timeout=60
+[2022-08-14 19:43:42] - http-outgoing-1 << Connection: keep-alive
+[2022-08-14 19:43:42] - Connection can be kept alive for 60000 MILLISECONDS
+[2022-08-14 19:43:42] - Connection [id: 1][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+[2022-08-14 19:43:42] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:43:42] - Connection released: [id: 1][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:43:42] - Pinning to endpoint null
+[2022-08-14 19:43:42] - DiscoveryClient_AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088 - registration status: 204
+[2022-08-14 19:43:42] - Successfully started bean 'webServerStartStop'
+[2022-08-14 19:43:42] - Starting beans in phase 2147483647
+[2022-08-14 19:43:42] - Documentation plugins bootstrapped
+[2022-08-14 19:43:42] - Found 1 custom documentation plugin(s)
+[2022-08-14 19:43:42] - Total number of request handlers 10
+[2022-08-14 19:43:42] - Adding key: /authentication/currentUser, WebMvcRequestHandler{requestMapping={GET [/authentication/currentUser]}, handlerMethod=com.authorization.controller.AuthenticateController#getCurrentUser(Principal), key=RequestHandlerKey{pathMappings=[/authentication/currentUser], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[2022-08-14 19:43:42] - Adding key: /authentication/getCurrentUser/{username}, WebMvcRequestHandler{requestMapping={GET [/authentication/getCurrentUser/{username}]}, handlerMethod=com.authorization.controller.AuthenticateController#getCurrentUser(String), key=RequestHandlerKey{pathMappings=[/authentication/getCurrentUser/{username}], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[2022-08-14 19:43:42] - Adding key: /authentication/token, WebMvcRequestHandler{requestMapping={POST [/authentication/token]}, handlerMethod=com.authorization.controller.AuthenticateController#generateToken(JwtRequest), key=RequestHandlerKey{pathMappings=[/authentication/token], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[2022-08-14 19:43:42] - Adding key: /error, WebMvcRequestHandler{requestMapping={ [/error]}, handlerMethod=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest), key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[2022-08-14 19:43:42] - Adding key: /error, WebMvcRequestHandler{requestMapping={ [/error], produces [text/html]}, handlerMethod=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse), key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+[2022-08-14 19:43:42] - Adding key: /swagger-resources, WebMvcRequestHandler{requestMapping={GET [/swagger-resources], produces [application/json]}, handlerMethod=springfox.documentation.swagger.web.ApiResourceController#swaggerResources(), key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json]}}
+[2022-08-14 19:43:42] - Adding key: /swagger-resources/configuration/security, WebMvcRequestHandler{requestMapping={GET [/swagger-resources/configuration/security], produces [application/json]}, handlerMethod=springfox.documentation.swagger.web.ApiResourceController#securityConfiguration(), key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json]}}
+[2022-08-14 19:43:42] - Adding key: /swagger-resources/configuration/ui, WebMvcRequestHandler{requestMapping={GET [/swagger-resources/configuration/ui], produces [application/json]}, handlerMethod=springfox.documentation.swagger.web.ApiResourceController#uiConfiguration(), key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/json]}}

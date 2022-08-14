@@ -1,0 +1,94 @@
+[2022-08-14 19:45:40] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-14 19:45:40] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:45:42] - CookieSpec selected: default
+[2022-08-14 19:45:42] - CookieSpec selected: default
+[2022-08-14 19:45:42] - Auth cache not set in the context
+[2022-08-14 19:45:42] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:45:42] - Auth cache not set in the context
+[2022-08-14 19:45:42] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:45:42] - http-outgoing-0 << "[read] I/O error: Read timed out"
+[2022-08-14 19:45:42] - Connection leased: [id: 0][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:45:42] - http-outgoing-0: set socket timeout to 0
+[2022-08-14 19:45:42] - Executing request GET /eureka/apps/delta HTTP/1.1
+[2022-08-14 19:45:42] - Target auth state: UNCHALLENGED
+[2022-08-14 19:45:42] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:45:42] - http-outgoing-0 >> GET /eureka/apps/delta HTTP/1.1
+[2022-08-14 19:45:42] - http-outgoing-0 >> Accept: application/json, application/*+json
+[2022-08-14 19:45:42] - http-outgoing-0 >> Host: localhost:8761
+[2022-08-14 19:45:42] - http-outgoing-0 >> Connection: Keep-Alive
+[2022-08-14 19:45:42] - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+[2022-08-14 19:45:42] - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-08-14 19:45:42] - http-outgoing-0 >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 << "[read] I/O error: Read timed out"
+[2022-08-14 19:45:42] - http-outgoing-0 >> "Accept: application/json, application/*+json[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 >> "Host: localhost:8761[\r][\n]"
+[2022-08-14 19:45:42] - Connection leased: [id: 1][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:45:42] - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:45:42] - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 >> "[\r][\n]"
+[2022-08-14 19:45:42] - Executing request PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1
+[2022-08-14 19:45:42] - Target auth state: UNCHALLENGED
+[2022-08-14 19:45:42] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:45:42] - http-outgoing-1 >> PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1
+[2022-08-14 19:45:42] - http-outgoing-1 >> Accept: application/json, application/*+json
+[2022-08-14 19:45:42] - http-outgoing-1 >> Content-Length: 0
+[2022-08-14 19:45:42] - http-outgoing-1 >> Host: localhost:8761
+[2022-08-14 19:45:42] - http-outgoing-1 >> Connection: Keep-Alive
+[2022-08-14 19:45:42] - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+[2022-08-14 19:45:42] - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[2022-08-14 19:45:42] - http-outgoing-1 >> "PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 >> "Accept: application/json, application/*+json[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 >> "Content-Length: 0[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 >> "Host: localhost:8761[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 >> "[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "Content-Length: 556[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "Date: Sun, 14 Aug 2022 14:15:42 GMT[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x8d]T[0xdb][0x8e][0xda]0[0x10][0xfd][0x17]k[0x1f]i [0x90][0xe5][0xf6][0xb4][0x88] 5j[0xb9][0x88][0xcb]VjU[0xa1][0xa9]3[0x10][0xab][0x89][0x1d][0xd9][0xe][0x94]"[0xfe][0xbd][0xe3][0xa4][0xa1][0xa5]bU[0x94][0x7][0xe2][0x99]sf[0xc6][0xe7]L83[0xc8][0xf3]Tp[0xb0]BI[0xc3][0x86]gv@m[0xdc][0xfb]v[0x1b]cj[0x81][\r][0x99][0x1f][0xf8][0xac][0xe1]p[0x14]K[0xc0]$\[0xc5]H[0xe1][0xcd]b[0x1b]l[0xab]D][0x80][\r][0xbf][0x9c][0x99][0x84][0xcc][0xa5]G[0x9b][0xf5][0xfb][0xf9]2[0xfa]<ZG[0xf3][0xd9]j[0xb2]|[0x8d][0xc6][0x93][0xe9]<[0xdc]|[0x9c][0x10]GHcAr,[0x9][0xf5]![0x8a][0x89][0x16][0x1e]A[0xe4]p[0x2][0xf9]n[0xc1][0x87][0xa3][0xc2]&J[0x8b][0x9f]e[0xf1][0x15][0xea][0x83][0xe0]8Uq[0x91][0xe2][0xb0][0xdf][0xea][0xf7][0xa9]P[0xa2][0x8c][0x9d]U[\r][0xfd]A[0xdb][0xf3][0xbb]}[0xaf][0xe5][0xf9][0x83][0xe7]j[0xae][0xff][0x8e][0x91][0x8f][0xe2]X[0xdf][0xe1][0xd2]@[0xb6]0[0xe5]%[0xe9][0xa4]H[0x13]-[0xe2][0x18][0xe5][0xea][0x1a][0x9f]}[0x98][0xcd]?[0xcd]([0x99]+m[0x9d]nO[0xac][0x9c][0xa9][0xc1]^P[0xc2][0xb7][0x14][0xdd]e[0xac].[0x90]][0xa8][0x1c][0xf2]B[0xe3][0xe2][0xf]2[0x8]:7[0xc0][0x1d][0xa4][0xa6]DrUH[0xab]ON[\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "[0xbf][0xc1]b[0xb0]0FiQGr[0xa7][0x1c][0xf7][0x85][0xa7]`[0xdc][0x0]\e[0x9e]D[0xbb]K[0xc5][0xf][0x8f]n*([0xef]E[0xb5][0x90]tx[\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "q[0x7]Ej[0xc3][0xdb][0x12][0x8d][0xda][0x9e][0xe9]i~[0x94][0xae]c[0x8a]`[0xb0].[0xaf]Q[0xe2][0x11][0xd2][0xc8][0xe1][0xf][0xee]w[0x85][0x9c][0xba]uZ4K[0xa1]K[0x1b][0xea][0xd8][0x80]b[0x1a][0xf7][0xc2][0xd8]*[0xbe][0x16][0x19]R[0xfb][0x8c]D[0xf7][0xbb][0xdd]V[0xd0][0xef][0x6][0xed]N[0xfb][0xb9]G[0x1d][0xc0][0xd8]eU[0xf8]m[0x10][0x92][0xb7][0xff][0x94]i9[0xe1]J[0xcf]7[0xf9]=b[0xbb][0x17][0xc][0xe8][0x2][0x19]ZpB[0xb9][0xf9]3[0x90][0xb0][0xc7][0x8c][0xee][0xeb]U[0xbe][0xb0]rO.nQ2\Pn[0xa3]S[0x8a]&[0xd6][0xe6][0xc3]f[0xf3][0xc6][0xf6][0xd2][0xbe][0xe6][0xd5][0xfc]G[0xc0][0xc0]m[0x1]V[0xe9][0xa6][0xa8][0xb4]M[0x10]R[0x9b][0x8c][0x13][0xe4][0xdf][0x1f][0xa6]V[0x1c]"[0x1f][0xaa]m[0xc4][0xd2][0xde][0xb7]7[0x9f][0xd5][0xeb][0xf4][0xfa]0^[0x98][0xb1]R:[0x16][0x92][0xb2]r[0x1f][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << "[0xc3][0xdd]F[0x9f][0x1c][0xc][0xf5]u[0xfb]*[0xa3]69i[0x89][0xf1]_z[0xb3][0x1b][0xa7]~[0xc3]B[0xa1][0xed][0xe9].[0xa8][0xdd][0xf3][0xdd][0x87][0x9][0x95][0x9b][0xa7][0xbc][0xfc]/[0x8][0xc3]I[0xc8]._[0xe9][0xb9][0xfc][0x2]v[0xcd]9[0x81]r[0x4][0x0][0x0]"
+[2022-08-14 19:45:42] - http-outgoing-0 << HTTP/1.1 200 
+[2022-08-14 19:45:42] - http-outgoing-0 << Content-Encoding: gzip
+[2022-08-14 19:45:42] - http-outgoing-0 << Content-Type: application/json
+[2022-08-14 19:45:42] - http-outgoing-0 << Content-Length: 556
+[2022-08-14 19:45:42] - http-outgoing-0 << Date: Sun, 14 Aug 2022 14:15:42 GMT
+[2022-08-14 19:45:42] - http-outgoing-0 << Keep-Alive: timeout=60
+[2022-08-14 19:45:42] - http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-0 << Connection: keep-alive
+[2022-08-14 19:45:42] - http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 << "Content-Length: 0[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 << "Date: Sun, 14 Aug 2022 14:15:42 GMT[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 << "Keep-Alive: timeout=60[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[2022-08-14 19:45:42] - http-outgoing-1 << "[\r][\n]"
+[2022-08-14 19:45:42] - Connection can be kept alive for 60000 MILLISECONDS
+[2022-08-14 19:45:42] - http-outgoing-1 << HTTP/1.1 200 
+[2022-08-14 19:45:42] - http-outgoing-1 << Content-Type: application/json
+[2022-08-14 19:45:42] - http-outgoing-1 << Content-Length: 0
+[2022-08-14 19:45:42] - http-outgoing-1 << Date: Sun, 14 Aug 2022 14:15:42 GMT
+[2022-08-14 19:45:42] - http-outgoing-1 << Keep-Alive: timeout=60
+[2022-08-14 19:45:42] - http-outgoing-1 << Connection: keep-alive
+[2022-08-14 19:45:42] - Connection can be kept alive for 60000 MILLISECONDS
+[2022-08-14 19:45:42] - Connection [id: 1][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+[2022-08-14 19:45:42] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:45:42] - Connection released: [id: 1][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:45:42] - DiscoveryClient_AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088 - Heartbeat status: 200
+[2022-08-14 19:45:42] - Connection [id: 0][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+[2022-08-14 19:45:42] - http-outgoing-0: set socket timeout to 0
+[2022-08-14 19:45:42] - Connection released: [id: 0][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:45:42] - Got delta update with apps hashcode UP_4_
+[2022-08-14 19:45:42] - Added instance Dwaipayan-Pc:AuthorizationServiceModule:8088 to the existing apps in region null
+[2022-08-14 19:45:42] - The total number of instances fetched by the delta processor : 1
+[2022-08-14 19:45:42] - The total number of all instances in the client now is 4
+[2022-08-14 19:45:42] - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_4_, is fetching remote regions? false 

@@ -1,0 +1,122 @@
+[2022-08-14 19:48:40] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-14 19:48:40] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:48:42] - Resolving eureka endpoints via configuration
+[2022-08-14 19:48:42] - The availability zone for the given region us-east-1 are [defaultZone]
+[2022-08-14 19:48:42] - Config resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+[2022-08-14 19:48:42] - Local zone=defaultZone; resolved to: [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+[2022-08-14 19:48:42] - Resolved to [AwsEndpoint{ serviceUrl='http://localhost:8761/eureka/', region='us-east-1', zone='defaultZone'}]
+[2022-08-14 19:48:42] - CookieSpec selected: default
+[2022-08-14 19:48:42] - CookieSpec selected: default
+[2022-08-14 19:48:42] - Auth cache not set in the context
+[2022-08-14 19:48:42] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:48:42] - Auth cache not set in the context
+[2022-08-14 19:48:42] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:48:42] - http-outgoing-0 << "[read] I/O error: Read timed out"
+[2022-08-14 19:48:42] - Connection leased: [id: 0][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:48:42] - http-outgoing-1 << "[read] I/O error: Read timed out"
+[2022-08-14 19:48:42] - http-outgoing-0: set socket timeout to 0
+[2022-08-14 19:48:42] - Connection leased: [id: 1][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:48:42] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:48:42] - Executing request GET /eureka/apps/delta HTTP/1.1
+[2022-08-14 19:48:42] - Executing request PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1
+[2022-08-14 19:48:42] - Target auth state: UNCHALLENGED
+[2022-08-14 19:48:42] - Target auth state: UNCHALLENGED
+[2022-08-14 19:48:42] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:48:42] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:48:42] - http-outgoing-0 >> GET /eureka/apps/delta HTTP/1.1
+[2022-08-14 19:48:42] - http-outgoing-0 >> Accept: application/json, application/*+json
+[2022-08-14 19:48:42] - http-outgoing-1 >> PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1
+[2022-08-14 19:48:42] - http-outgoing-0 >> Host: localhost:8761
+[2022-08-14 19:48:42] - http-outgoing-1 >> Accept: application/json, application/*+json
+[2022-08-14 19:48:42] - http-outgoing-0 >> Connection: Keep-Alive
+[2022-08-14 19:48:42] - http-outgoing-1 >> Content-Length: 0
+[2022-08-14 19:48:42] - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+[2022-08-14 19:48:42] - http-outgoing-1 >> Host: localhost:8761
+[2022-08-14 19:48:42] - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-08-14 19:48:42] - http-outgoing-1 >> Connection: Keep-Alive
+[2022-08-14 19:48:42] - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+[2022-08-14 19:48:42] - http-outgoing-0 >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[2022-08-14 19:48:42] - http-outgoing-0 >> "Accept: application/json, application/*+json[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 >> "Host: localhost:8761[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 >> "[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "Accept: application/json, application/*+json[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "Content-Length: 0[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "Host: localhost:8761[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 >> "[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << "Content-Length: 0[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << "Date: Sun, 14 Aug 2022 14:18:42 GMT[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << "Keep-Alive: timeout=60[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << "[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-0 << "Content-Length: 87[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << HTTP/1.1 200 
+[2022-08-14 19:48:42] - http-outgoing-0 << "Date: Sun, 14 Aug 2022 14:18:42 GMT[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << Content-Type: application/json
+[2022-08-14 19:48:42] - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << Content-Length: 0
+[2022-08-14 19:48:42] - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << Date: Sun, 14 Aug 2022 14:18:42 GMT
+[2022-08-14 19:48:42] - http-outgoing-0 << "[\r][\n]"
+[2022-08-14 19:48:42] - http-outgoing-1 << Keep-Alive: timeout=60
+[2022-08-14 19:48:42] - http-outgoing-1 << Connection: keep-alive
+[2022-08-14 19:48:42] - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc]M[0x8c][0x94]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0x93]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0][0xe7][0x8e][0xf7]VT[0x0][0x0][0x0]"
+[2022-08-14 19:48:42] - http-outgoing-0 << HTTP/1.1 200 
+[2022-08-14 19:48:42] - http-outgoing-0 << Content-Encoding: gzip
+[2022-08-14 19:48:42] - http-outgoing-0 << Content-Type: application/json
+[2022-08-14 19:48:42] - http-outgoing-0 << Content-Length: 87
+[2022-08-14 19:48:42] - http-outgoing-0 << Date: Sun, 14 Aug 2022 14:18:42 GMT
+[2022-08-14 19:48:42] - http-outgoing-0 << Keep-Alive: timeout=60
+[2022-08-14 19:48:42] - Connection can be kept alive for 60000 MILLISECONDS
+[2022-08-14 19:48:42] - http-outgoing-0 << Connection: keep-alive
+[2022-08-14 19:48:42] - Connection [id: 1][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+[2022-08-14 19:48:42] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:48:42] - Connection can be kept alive for 60000 MILLISECONDS
+[2022-08-14 19:48:42] - Connection released: [id: 1][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:48:42] - DiscoveryClient_AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088 - Heartbeat status: 200
+[2022-08-14 19:48:42] - Connection [id: 0][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+[2022-08-14 19:48:42] - http-outgoing-0: set socket timeout to 0
+[2022-08-14 19:48:42] - Connection released: [id: 0][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:48:42] - Got delta update with apps hashcode UP_4_
+[2022-08-14 19:48:42] - The total number of instances fetched by the delta processor : 0
+[2022-08-14 19:48:42] - The total number of all instances in the client now is 4
+[2022-08-14 19:48:42] - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_4_, is fetching remote regions? false 
+[2022-08-14 19:49:10] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-14 19:49:10] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-14 19:49:12] - CookieSpec selected: default
+[2022-08-14 19:49:12] - CookieSpec selected: default
+[2022-08-14 19:49:12] - Auth cache not set in the context
+[2022-08-14 19:49:12] - Auth cache not set in the context
+[2022-08-14 19:49:12] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:12] - Connection request: [route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:12] - http-outgoing-1 << "[read] I/O error: Read timed out"
+[2022-08-14 19:49:12] - http-outgoing-0 << "[read] I/O error: Read timed out"
+[2022-08-14 19:49:12] - Connection leased: [id: 1][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:12] - http-outgoing-1: set socket timeout to 0
+[2022-08-14 19:49:12] - Connection leased: [id: 0][route: {}->http://localhost:8761][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2022-08-14 19:49:12] - Executing request PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1
+[2022-08-14 19:49:12] - Target auth state: UNCHALLENGED
+[2022-08-14 19:49:12] - http-outgoing-0: set socket timeout to 0
+[2022-08-14 19:49:12] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:49:12] - Executing request GET /eureka/apps/delta HTTP/1.1
+[2022-08-14 19:49:12] - Target auth state: UNCHALLENGED
+[2022-08-14 19:49:12] - http-outgoing-1 >> PUT /eureka/apps/AUTHORIZATIONSERVICEMODULE/Dwaipayan-Pc:AuthorizationServiceModule:8088?status=UP&lastDirtyTimestamp=1660486422718 HTTP/1.1
+[2022-08-14 19:49:12] - Proxy auth state: UNCHALLENGED
+[2022-08-14 19:49:12] - http-outgoing-1 >> Accept: application/json, application/*+json
+[2022-08-14 19:49:12] - http-outgoing-1 >> Content-Length: 0
+[2022-08-14 19:49:12] - http-outgoing-1 >> Host: localhost:8761
+[2022-08-14 19:49:12] - http-outgoing-1 >> Connection: Keep-Alive
+[2022-08-14 19:49:12] - http-outgoing-0 >> GET /eureka/apps/delta HTTP/1.1
+[2022-08-14 19:49:12] - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
